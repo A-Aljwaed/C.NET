@@ -19,7 +19,7 @@ namespace wetterApp
     public partial class MainWindow : Window
     {
 
-        private readonly String apiKey = "c541572b1fe3e5e270305b1e1381cb5a";
+        private readonly String apiKey = "ac541572b1fe3e5e270305b1e1381cb5";
         private String apiCallUrl = "https://api.openweathermap.org/data/3.0/weather";
         public MainWindow()
         {
