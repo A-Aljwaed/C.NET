@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
@@ -47,8 +47,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-22T14:23:58.571Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -59,8 +62,7 @@
               "ToolTip": "C:\\Users\\ahmad\\source\\repos\\A-Aljwaed\\C.NET\\wetterApp\\wetterApp\\App.xaml",
               "RelativeToolTip": "wetterApp\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-24T17:13:02.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T17:13:02.397Z"
             },
             {
               "$type": "Document",
@@ -71,8 +73,7 @@
               "ToolTip": "C:\\Users\\ahmad\\source\\repos\\A-Aljwaed\\C.NET\\wetterApp\\wetterApp\\MainWindow.xaml",
               "RelativeToolTip": "wetterApp\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-23T16:28:40.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T16:28:40.531Z"
             },
             {
               "$type": "Document",
@@ -84,8 +85,7 @@
               "RelativeToolTip": "wetterApp\\Wetter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T15:20:55.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T15:20:55.246Z"
             },
             {
               "$type": "Document",
@@ -97,8 +97,7 @@
               "RelativeToolTip": "wetterApp\\WetteerAppAntwort.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T14:23:12.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T14:23:12.586Z"
             },
             {
               "$type": "Document",
@@ -108,7 +107,7 @@
               "RelativeDocumentMoniker": "wetterApp\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\ahmad\\source\\repos\\A-Aljwaed\\C.NET\\wetterApp\\wetterApp\\MainWindow.xaml.cs",
               "RelativeToolTip": "wetterApp\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAgwEsAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwBYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T07:51:35.627Z",
               "EditorCaption": ""
