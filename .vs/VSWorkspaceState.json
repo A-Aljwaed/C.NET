@@ -1,4 +1,9 @@
 {
-  "ExpandedNodes": [],
+  "ExpandedNodes": [
+    "",
+    "\\wetterApp",
+    "\\wetterApp\\wetterApp"
+  ],
+  "SelectedNode": "\\wetterApp\\wetterApp\\WetteerAppAntwort.cs",
   "PreviewInSolutionExplorer": false
 }

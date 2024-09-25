@@ -1,4 +1,5 @@
 ﻿using System.Net.Http;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Text.Json.Serialization;
 using System.Windows;
@@ -19,36 +20,11 @@ namespace wetterApp
     public partial class MainWindow : Window
     {
 
-        private readonly String apiKey = "c541572b1fe3e5e270305b1e1381cb5a";
+        private readonly String apiKey = "a541572b1fe3e5e270305b1e1381cb5c";
         private String apiCallUrl = "https://api.openweathermap.org/data/3.0/weather";
         public MainWindow()
         {
             InitializeComponent();
-
-            WetteerAppAntwort result = getwetter("Berlin");
-            String finaleImage = "Sun.png";
-            String current = result.wetter[0].main.ToLower();
-
-            if (current.Contains("cloud"))
-            {
-                finaleImage = "Cloud.png";
-
-            }
-            else if (current.Contains("rain"))
-            {
-                finaleImage = "Rain.png";
-            }
-            else if (current.Contains("snow")) {
-                finaleImage = "Snow.png"; 
-            }
-            else
-            {
-                finaleImage = "Sun.png";
-
-            }
-
-            HintergruendsBild.ImageSource = new BitmapImage(new Uri("bilder/Rain.png", UriKind.Relative));
-       
 
         }
 
@@ -66,6 +42,45 @@ namespace wetterApp
             WetteerAppAntwort wetteerAppAntwort = JsonConvert.DeserializeObject<WetteerAppAntwort>(antwort);
 
             return wetteerAppAntwort;
+
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+            String query = location.Text;
+            updateUI(query);
+
+        }
+        public void updateUI(String city)
+        {
+
+            WetteerAppAntwort result = getwetter(city);
+            String finaleImage = "Sun.png";
+            String current = result.ToString();  //result.wetter[0].main.tolower();
+
+            if (current.Contains("cloud"))
+            {
+                finaleImage = "Cloud.png";
+
+            }
+            else if (current.Contains("rain"))
+            {
+                finaleImage = "Rain.png";
+            }
+            else if (current.Contains("snow"))
+            {
+                finaleImage = "Snow.png";
+            }
+
+           
+
+
+
+            HintergruendsBild.ImageSource = new BitmapImage(new Uri("bilder/" + finaleImage, UriKind.Relative));
+
+            // temperatur.Content =result.main.temp.ToString()+" °";
+            //info.Content = result.wetter[0].main;
 
         }
     }

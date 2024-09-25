@@ -7,13 +7,139 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="512" Width="1024"
         ResizeMode="NoResize">
+    <Window.Resources>
+        <Style x:Key="FocusVisual">
+            <Setter Property="Control.Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Rectangle Margin="2" StrokeDashArray="1 2" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" SnapsToDevicePixels="true" StrokeThickness="1"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <SolidColorBrush x:Key="Button.Static.Background" Color="#FFDDDDDD"/>
+        <SolidColorBrush x:Key="Button.Static.Border" Color="#FF707070"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFBEE6FD"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FF3C7FB1"/>
+        <SolidColorBrush x:Key="Button.Pressed.Background" Color="#FFC4E5F6"/>
+        <SolidColorBrush x:Key="Button.Pressed.Border" Color="#FF2C628B"/>
+        <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4"/>
+        <SolidColorBrush x:Key="Button.Disabled.Border" Color="#FFADB2B5"/>
+        <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="#FF838383"/>
+        <Style x:Key="ButtonStyle1" TargetType="{x:Type Button}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+            <Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="border" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" SnapsToDevicePixels="true">
+                            <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsDefaulted" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="true">
+           
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="true">
+                           
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border}"/>
+                                <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
     <Grid>
+
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="20">
+
+            </ColumnDefinition>
+            <ColumnDefinition Width="275*">
+
+            </ColumnDefinition>
+            <ColumnDefinition Width="217*">
+
+            </ColumnDefinition>
+            <ColumnDefinition Width="20">
+
+            </ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="54">
+
+            </RowDefinition>
+            <RowDefinition Height="113*">
+
+            </RowDefinition>
+            <RowDefinition Height="126*"/>
+            <RowDefinition Height="171*">
+
+            </RowDefinition>
+            <RowDefinition Height="10.034">
+
+            </RowDefinition >
+
+            <RowDefinition Height="22">
+
+            </RowDefinition>
+        </Grid.RowDefinitions>
+
+
+
+
+
+
+
         <Grid.Background>
             <ImageBrush x:Name="HintergruendsBild" ImageSource="/wetterApp;component/bilder/Sun.png">
-                
+
             </ImageBrush>
         </Grid.Background>
-        
+        <Label x:Name="temperatur" Grid.Column="1" Content="20°" HorizontalAlignment="Left" Margin="52,4,0,0" Grid.Row="1" VerticalAlignment="Top" RenderTransformOrigin="-1.679,0.664" FontSize="72" FontFamily="Bodoni MT Black" Height="82" Width="131" Grid.RowSpan="1" Foreground="#FFDF5252" UseLayoutRounding="False" ClipToBounds="True" BorderThickness="10,0,0,0" SnapsToDevicePixels="True" Opacity="0.96">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+
+        <Label x:Name="info" Grid.Column="1" Content="20°" HorizontalAlignment="Left" Margin="52,68,0,23" Grid.Row="3" RenderTransformOrigin="-1.679,0.664" FontSize="50" FontFamily="Bodoni MT Black" Width="131" Foreground="AntiqueWhite" UseLayoutRounding="False" ClipToBounds="True" BorderThickness="10,0,0,0" SnapsToDevicePixels="True" Opacity="0.96">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+
+        <Border Grid.Column="1" Grid.ColumnSpan="2" Padding="5" CornerRadius="25" BorderThickness="0" Background="WhiteSmoke" Margin="539,10,50,10">
+            <TextBox x:Name="location" Grid.Column="2" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="location" VerticalAlignment="Center" Width="235" Height="34" Background="Transparent" BorderThickness="0" TextChanged="TextBox_TextChanged" FontFamily="Arial Rounded MT Bold"  FontSize="24" Margin="146,0,0,0"/>
+        </Border>
+
+        <Border Grid.Column="1" Grid.ColumnSpan="1" Padding="5" CornerRadius="25" BorderThickness="0" Background="WhiteSmoke" Margin="441,9,50,11" RenderTransformOrigin="0.559,0.526">
+            <Button Style="{DynamicResource ButtonStyle1}" Cursor="Hand" Background="Transparent" Content="Suchen" BorderThickness="0"></Button>
+            <Border.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-0.561"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="1.156"/>
+                </TransformGroup>
+            </Border.RenderTransform>
+        </Border>
+
 
     </Grid>
 </Window>

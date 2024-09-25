@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ufAqHjUosEg=",
+  "dgSpecHash": "N6nhttAq+M0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ahmad\\source\\repos\\wetterApp\\wetterApp\\wetterApp.csproj",
+  "projectFilePath": "C:\\Users\\ahmad\\Source\\Repos\\A-Aljwaed\\C.NET\\wetterApp\\wetterApp\\wetterApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ahmad\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],

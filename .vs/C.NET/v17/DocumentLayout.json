@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ahmad\\source\\repos\\A-Aljwaed\\C.NET\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ahmad\\source\\repos\\A-Aljwaed\\C.NET\\wetterApp\\wetterApp\\wetterApp.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:wetterApp\\wetterApp\\wetterApp.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ahmad\\source\\repos\\A-Aljwaed\\C.NET\\wetterApp\\wetterApp\\wetterApp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:wetterApp\\wetterApp\\wetterApp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ahmad\\source\\repos\\A-Aljwaed\\C.NET\\wetterApp\\wetterApp\\Wetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:wetterApp\\wetterApp\\Wetter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ahmad\\source\\repos\\A-Aljwaed\\C.NET\\wetterApp\\wetterApp\\WetteerAppAntwort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:wetterApp\\wetterApp\\WetteerAppAntwort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ahmad\\source\\repos\\A-Aljwaed\\C.NET\\wetterApp\\wetterApp\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:wetterApp\\wetterApp\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "wetterApp.csproj.user",
+              "DocumentMoniker": "C:\\Users\\ahmad\\source\\repos\\A-Aljwaed\\C.NET\\wetterApp\\wetterApp\\wetterApp.csproj.user",
+              "RelativeDocumentMoniker": "wetterApp\\wetterApp\\wetterApp.csproj.user",
+              "ToolTip": "C:\\Users\\ahmad\\source\\repos\\A-Aljwaed\\C.NET\\wetterApp\\wetterApp\\wetterApp.csproj.user",
+              "RelativeToolTip": "wetterApp\\wetterApp\\wetterApp.csproj.user",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2024-09-24T15:50:14.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "wetterApp.csproj",
+              "DocumentMoniker": "C:\\Users\\ahmad\\source\\repos\\A-Aljwaed\\C.NET\\wetterApp\\wetterApp\\wetterApp.csproj",
+              "RelativeDocumentMoniker": "wetterApp\\wetterApp\\wetterApp.csproj",
+              "ToolTip": "C:\\Users\\ahmad\\source\\repos\\A-Aljwaed\\C.NET\\wetterApp\\wetterApp\\wetterApp.csproj",
+              "RelativeToolTip": "wetterApp\\wetterApp\\wetterApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-24T15:50:13.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Wetter.cs",
+              "DocumentMoniker": "C:\\Users\\ahmad\\source\\repos\\A-Aljwaed\\C.NET\\wetterApp\\wetterApp\\Wetter.cs",
+              "RelativeDocumentMoniker": "wetterApp\\wetterApp\\Wetter.cs",
+              "ToolTip": "C:\\Users\\ahmad\\source\\repos\\A-Aljwaed\\C.NET\\wetterApp\\wetterApp\\Wetter.cs",
+              "RelativeToolTip": "wetterApp\\wetterApp\\Wetter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T15:49:58.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WetteerAppAntwort.cs",
+              "DocumentMoniker": "C:\\Users\\ahmad\\source\\repos\\A-Aljwaed\\C.NET\\wetterApp\\wetterApp\\WetteerAppAntwort.cs",
+              "RelativeDocumentMoniker": "wetterApp\\wetterApp\\WetteerAppAntwort.cs",
+              "ToolTip": "C:\\Users\\ahmad\\source\\repos\\A-Aljwaed\\C.NET\\wetterApp\\wetterApp\\WetteerAppAntwort.cs",
+              "RelativeToolTip": "wetterApp\\wetterApp\\WetteerAppAntwort.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T15:49:56.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ahmad\\source\\repos\\A-Aljwaed\\C.NET\\wetterApp\\wetterApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "wetterApp\\wetterApp\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ahmad\\source\\repos\\A-Aljwaed\\C.NET\\wetterApp\\wetterApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "wetterApp\\wetterApp\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T15:49:48.25Z",
+              "EditorCaption": ""
             }
           ]
         }

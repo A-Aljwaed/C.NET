@@ -11,7 +11,7 @@ namespace wetterApp
 
 
 		public int id;
-		public string main;
+		public String main;
 		public string beschreibung;
 	}
 }

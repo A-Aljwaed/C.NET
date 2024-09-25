@@ -57,11 +57,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ahmad\\source\\repos\\wetterApp\\wetterApp\\wetterApp.csproj",
+      "projectUniqueName": "C:\\Users\\ahmad\\Source\\Repos\\A-Aljwaed\\C.NET\\wetterApp\\wetterApp\\wetterApp.csproj",
       "projectName": "wetterApp",
-      "projectPath": "C:\\Users\\ahmad\\source\\repos\\wetterApp\\wetterApp\\wetterApp.csproj",
+      "projectPath": "C:\\Users\\ahmad\\Source\\Repos\\A-Aljwaed\\C.NET\\wetterApp\\wetterApp\\wetterApp.csproj",
       "packagesPath": "C:\\Users\\ahmad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ahmad\\source\\repos\\wetterApp\\wetterApp\\obj\\",
+      "outputPath": "C:\\Users\\ahmad\\Source\\Repos\\A-Aljwaed\\C.NET\\wetterApp\\wetterApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ahmad\\AppData\\Roaming\\NuGet\\NuGet.Config",
